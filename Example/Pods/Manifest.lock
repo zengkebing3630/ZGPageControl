@@ -1,6 +1,7 @@
 PODS:
   - Masonry (1.1.0)
-  - ZGPageControl (0.1.0)
+  - ZGPageControl (0.1.0):
+    - Masonry
 
 DEPENDENCIES:
   - Masonry
@@ -16,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  ZGPageControl: 8f8d96de9649665287379c26f8e19ff2245f9f6d
+  ZGPageControl: 336b5bbee221956fa48d6ae5b68159b2d94223db
 
 PODFILE CHECKSUM: bc7ab0b4676f44fecad7935dd49a154fc0613145
 
