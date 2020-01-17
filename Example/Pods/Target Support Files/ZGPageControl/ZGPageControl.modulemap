@@ -1,0 +1,6 @@
+framework module ZGPageControl {
+  umbrella header "ZGPageControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

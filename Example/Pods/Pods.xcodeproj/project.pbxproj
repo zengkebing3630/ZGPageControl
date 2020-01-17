@@ -1,0 +1,1056 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
+		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
+		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FFDA526D46485A81AA04918903278A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
+		1AD9727909EFF2B376A036A1FA256B76 /* ZGPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E24630B9908027D38F3574176C799F1 /* ZGPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
+		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3712540F578672A9A8694627C2CA4220 /* Pods-ZGPageControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1174E5E5E7ADC69432DB8EF1470C20 /* Pods-ZGPageControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CF877F1C7B94D6D0264BF60C14E7443 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E78A5624C48F34BCE37B656FD3D05F9 /* ZGPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7CFE12ED7132564023B7186B15ED9 /* ZGPageControl.m */; };
+		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
+		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
+		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
+		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C693C4CDA437BA5ED473471BF5A8E47 /* Pods-ZGPageControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D719C59775A48BADDA2D6DBABE40FE /* Pods-ZGPageControl_Example-dummy.m */; };
+		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
+		B3848F54B9C5A5E197F94A38E2EBE202 /* Pods-ZGPageControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3F5BA15E8378029AF6A77231E640DE /* Pods-ZGPageControl_Tests-dummy.m */; };
+		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
+		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C15679D924F10E329DDD553E32F72B35 /* Pods-ZGPageControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7EB27AADCDF77A928C48DA5C65A3B84 /* Pods-ZGPageControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
+		EAAE2C517A6C08E5543A7167196FA6BC /* ZGPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B183FB857AA2738BB04F77BEA24A366 /* ZGPageControl-dummy.m */; };
+		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC1CA5C7670E2B552BB3CCFDA79E7B6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		FD39822BC3951BD6A9EF982B45204AFD /* ZGPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F3F27D1A690075A59FF936F8B5E8AA /* ZGPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D44403F4F7F52464E0A6634DC62F4C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		13D1AFD67706D532CD0CBAAC89ECA18A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3E66FA786269B85BA049C1BE6A6A7F;
+			remoteInfo = ZGPageControl;
+		};
+		159C2D93AE9E57E10B88F9908E85AC8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1CB541A94D70A8015A805BA4050B269;
+			remoteInfo = "Pods-ZGPageControl_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0BBDDED42F69D23CD2794A1D9E13C9C6 /* Pods-ZGPageControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZGPageControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BD7CFE12ED7132564023B7186B15ED9 /* ZGPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGPageControl.m; path = ZGPageControl/Classes/ZGPageControl.m; sourceTree = "<group>"; };
+		0C64A3F0FAB1B6F5106F6722697E2E39 /* Pods-ZGPageControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZGPageControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		13F3F27D1A690075A59FF936F8B5E8AA /* ZGPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZGPageControl-umbrella.h"; sourceTree = "<group>"; };
+		18E10B856528AFD364E83F26C16FF85A /* Pods-ZGPageControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZGPageControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDC83713FE534419D4349DF21DBF5A3 /* Pods-ZGPageControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZGPageControl_Example.modulemap"; sourceTree = "<group>"; };
+		2D1174E5E5E7ADC69432DB8EF1470C20 /* Pods-ZGPageControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZGPageControl_Example-umbrella.h"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		3702537037A8B779FA18DBDF05B5A3F1 /* Pods-ZGPageControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZGPageControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		3DF718907D537940210E14E09B288135 /* ZGPageControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZGPageControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4138DF2ACE85953FB58D66348156F89B /* Pods-ZGPageControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZGPageControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		56A7EAC9600CB1BA932D0B8F8111CA35 /* ZGPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZGPageControl-Info.plist"; sourceTree = "<group>"; };
+		58D719C59775A48BADDA2D6DBABE40FE /* Pods-ZGPageControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZGPageControl_Example-dummy.m"; sourceTree = "<group>"; };
+		5BF8B1215527F9C14A2F4F7EF0F8F434 /* Pods_ZGPageControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZGPageControl_Example.framework; path = "Pods-ZGPageControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		64A5C6CD337CEB61AA9AFD70E0022228 /* Pods-ZGPageControl_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZGPageControl_Tests-Info.plist"; sourceTree = "<group>"; };
+		6D4B82CACEE8361F2482B0D2656164CC /* Pods-ZGPageControl_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZGPageControl_Example-Info.plist"; sourceTree = "<group>"; };
+		6E24630B9908027D38F3574176C799F1 /* ZGPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGPageControl.h; path = ZGPageControl/Classes/ZGPageControl.h; sourceTree = "<group>"; };
+		6EEB243A6778C8340C38D90C6F8E9B0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7B4F35A5177134715FB463D5BA0028B6 /* Pods-ZGPageControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZGPageControl_Tests.modulemap"; sourceTree = "<group>"; };
+		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		8B183FB857AA2738BB04F77BEA24A366 /* ZGPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZGPageControl-dummy.m"; sourceTree = "<group>"; };
+		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		93CA0168F0F2565C0B24414856B543EB /* ZGPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZGPageControl.modulemap; sourceTree = "<group>"; };
+		94002BE8F0C90FB0627CEEE957A4B78B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		999FFE7C0BF13EF03135E5415001991F /* ZGPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZGPageControl.xcconfig; sourceTree = "<group>"; };
+		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		ABACCDAC5F20F56F0851C24394AAF8B7 /* ZGPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZGPageControl-prefix.pch"; sourceTree = "<group>"; };
+		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		BCA076B81BE613290AAC40C75E1947AF /* Pods-ZGPageControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZGPageControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF3F5BA15E8378029AF6A77231E640DE /* Pods-ZGPageControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZGPageControl_Tests-dummy.m"; sourceTree = "<group>"; };
+		C05C8B350C6E7D4C6E1AA8094DA4731F /* Pods-ZGPageControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZGPageControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E07F03AFC40B2DF1F9ED8AEAB7AEF1A7 /* ZGPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZGPageControl.framework; path = ZGPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21BAB465EFD3AA8DF698C1FFE995B01 /* Pods-ZGPageControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZGPageControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E22B461E1AD4CA0C4563F6CF54824115 /* Pods-ZGPageControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZGPageControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		E7EB27AADCDF77A928C48DA5C65A3B84 /* Pods-ZGPageControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZGPageControl_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EDB0506F6F44A52EC2BC503F4F1234C7 /* Pods_ZGPageControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZGPageControl_Tests.framework; path = "Pods-ZGPageControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		230111E882889D4A91FBCAAB830ACEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF877F1C7B94D6D0264BF60C14E7443 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
+				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91BD3F75BBC375589353F4BBA612351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1CA5C7670E2B552BB3CCFDA79E7B6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C3A5B8FD1E3D4A82E737C5BBD053C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFDA526D46485A81AA04918903278A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A4717AEADD927FBF45E986B0DAFDB20 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A406F43121A26BF0011F294E198B453D /* Pods-ZGPageControl_Example */,
+				CB449232BA642EA3A53551A72FD8A3DE /* Pods-ZGPageControl_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		565CAEE2402D34EC151F829BA440742D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93CA0168F0F2565C0B24414856B543EB /* ZGPageControl.modulemap */,
+				999FFE7C0BF13EF03135E5415001991F /* ZGPageControl.xcconfig */,
+				8B183FB857AA2738BB04F77BEA24A366 /* ZGPageControl-dummy.m */,
+				56A7EAC9600CB1BA932D0B8F8111CA35 /* ZGPageControl-Info.plist */,
+				ABACCDAC5F20F56F0851C24394AAF8B7 /* ZGPageControl-prefix.pch */,
+				13F3F27D1A690075A59FF936F8B5E8AA /* ZGPageControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZGPageControl";
+			sourceTree = "<group>";
+		};
+		59EC5C936BF13999D84C1C44EA49E1FC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				94002BE8F0C90FB0627CEEE957A4B78B /* LICENSE */,
+				6EEB243A6778C8340C38D90C6F8E9B0A /* README.md */,
+				3DF718907D537940210E14E09B288135 /* ZGPageControl.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		641727D7EBF7D099C436C5885417E360 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */,
+				B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */,
+				130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */,
+				1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */,
+				D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */,
+				3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */,
+				36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */,
+				115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */,
+				5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */,
+				F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */,
+				86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */,
+				0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */,
+				ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */,
+				B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */,
+				A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */,
+				F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */,
+				C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */,
+				DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */,
+				9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */,
+				FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */,
+				9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */,
+				1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */,
+				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
+				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				641727D7EBF7D099C436C5885417E360 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EC7FA94A23D21075DC38A731D055477 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3212975409DCBEA34A9FB88B6DDBE2E /* ZGPageControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A406F43121A26BF0011F294E198B453D /* Pods-ZGPageControl_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2BDC83713FE534419D4349DF21DBF5A3 /* Pods-ZGPageControl_Example.modulemap */,
+				18E10B856528AFD364E83F26C16FF85A /* Pods-ZGPageControl_Example-acknowledgements.markdown */,
+				E22B461E1AD4CA0C4563F6CF54824115 /* Pods-ZGPageControl_Example-acknowledgements.plist */,
+				58D719C59775A48BADDA2D6DBABE40FE /* Pods-ZGPageControl_Example-dummy.m */,
+				4138DF2ACE85953FB58D66348156F89B /* Pods-ZGPageControl_Example-frameworks.sh */,
+				6D4B82CACEE8361F2482B0D2656164CC /* Pods-ZGPageControl_Example-Info.plist */,
+				2D1174E5E5E7ADC69432DB8EF1470C20 /* Pods-ZGPageControl_Example-umbrella.h */,
+				C05C8B350C6E7D4C6E1AA8094DA4731F /* Pods-ZGPageControl_Example.debug.xcconfig */,
+				BCA076B81BE613290AAC40C75E1947AF /* Pods-ZGPageControl_Example.release.xcconfig */,
+			);
+			name = "Pods-ZGPageControl_Example";
+			path = "Target Support Files/Pods-ZGPageControl_Example";
+			sourceTree = "<group>";
+		};
+		B21F70AEFC6C0C0DF0EE355E7DFE9587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				5BF8B1215527F9C14A2F4F7EF0F8F434 /* Pods_ZGPageControl_Example.framework */,
+				EDB0506F6F44A52EC2BC503F4F1234C7 /* Pods_ZGPageControl_Tests.framework */,
+				E07F03AFC40B2DF1F9ED8AEAB7AEF1A7 /* ZGPageControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDFB34A12FABD70C59DCE49920774B47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */,
+				002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */,
+				E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */,
+				025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */,
+				E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */,
+				8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		C3212975409DCBEA34A9FB88B6DDBE2E /* ZGPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				6E24630B9908027D38F3574176C799F1 /* ZGPageControl.h */,
+				0BD7CFE12ED7132564023B7186B15ED9 /* ZGPageControl.m */,
+				59EC5C936BF13999D84C1C44EA49E1FC /* Pod */,
+				565CAEE2402D34EC151F829BA440742D /* Support Files */,
+			);
+			name = ZGPageControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CB449232BA642EA3A53551A72FD8A3DE /* Pods-ZGPageControl_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F35A5177134715FB463D5BA0028B6 /* Pods-ZGPageControl_Tests.modulemap */,
+				0BBDDED42F69D23CD2794A1D9E13C9C6 /* Pods-ZGPageControl_Tests-acknowledgements.markdown */,
+				0C64A3F0FAB1B6F5106F6722697E2E39 /* Pods-ZGPageControl_Tests-acknowledgements.plist */,
+				BF3F5BA15E8378029AF6A77231E640DE /* Pods-ZGPageControl_Tests-dummy.m */,
+				64A5C6CD337CEB61AA9AFD70E0022228 /* Pods-ZGPageControl_Tests-Info.plist */,
+				E7EB27AADCDF77A928C48DA5C65A3B84 /* Pods-ZGPageControl_Tests-umbrella.h */,
+				3702537037A8B779FA18DBDF05B5A3F1 /* Pods-ZGPageControl_Tests.debug.xcconfig */,
+				E21BAB465EFD3AA8DF698C1FFE995B01 /* Pods-ZGPageControl_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZGPageControl_Tests";
+			path = "Target Support Files/Pods-ZGPageControl_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9EC7FA94A23D21075DC38A731D055477 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				B21F70AEFC6C0C0DF0EE355E7DFE9587 /* Products */,
+				4A4717AEADD927FBF45E986B0DAFDB20 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EA8FCE3862D61C9B800E41057E07D93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15679D924F10E329DDD553E32F72B35 /* Pods-ZGPageControl_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2984E294C1428B4014450E212E29577D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD39822BC3951BD6A9EF982B45204AFD /* ZGPageControl-umbrella.h in Headers */,
+				1AD9727909EFF2B376A036A1FA256B76 /* ZGPageControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4E4514AFDAC03077FA4E27E9001D83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3712540F578672A9A8694627C2CA4220 /* Pods-ZGPageControl_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
+				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
+				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
+				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
+				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
+				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
+				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
+				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
+				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
+				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
+				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
+				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
+				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
+				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
+				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
+				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57887CC82648DD0584AEA497EE4F959D /* Pods-ZGPageControl_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41DF706E416CDED5D02010063DE11B07 /* Build configuration list for PBXNativeTarget "Pods-ZGPageControl_Tests" */;
+			buildPhases = (
+				0EA8FCE3862D61C9B800E41057E07D93 /* Headers */,
+				24D2DE329BF211319149398BE58D38BC /* Sources */,
+				F4C3A5B8FD1E3D4A82E737C5BBD053C2 /* Frameworks */,
+				DCA8A0E40186DC2921F3CA0B437A6A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CF7344EF4C858D67A30C422A7DFC9B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZGPageControl_Tests";
+			productName = "Pods-ZGPageControl_Tests";
+			productReference = EDB0506F6F44A52EC2BC503F4F1234C7 /* Pods_ZGPageControl_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1CB541A94D70A8015A805BA4050B269 /* Pods-ZGPageControl_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D98385EA7917BF6DDBE9AE61472987 /* Build configuration list for PBXNativeTarget "Pods-ZGPageControl_Example" */;
+			buildPhases = (
+				2B4E4514AFDAC03077FA4E27E9001D83 /* Headers */,
+				16864B039E3F20DF666728E62D0E0E26 /* Sources */,
+				D91BD3F75BBC375589353F4BBA612351 /* Frameworks */,
+				3B220DFB7CAC146D2F333B3C1F865AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				752403B778F2D1E952143A8A113A3EBB /* PBXTargetDependency */,
+				DA04266706287723E5AF4312D3C35AA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZGPageControl_Example";
+			productName = "Pods-ZGPageControl_Example";
+			productReference = 5BF8B1215527F9C14A2F4F7EF0F8F434 /* Pods_ZGPageControl_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA3E66FA786269B85BA049C1BE6A6A7F /* ZGPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EA92C26F263A71D11EFE367F13645F /* Build configuration list for PBXNativeTarget "ZGPageControl" */;
+			buildPhases = (
+				2984E294C1428B4014450E212E29577D /* Headers */,
+				BD1B005B451737AF3AE58BB02CE51981 /* Sources */,
+				230111E882889D4A91FBCAAB830ACEE0 /* Frameworks */,
+				7E27A455B5302656292DF6FF983B9FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGPageControl;
+			productName = ZGPageControl;
+			productReference = E07F03AFC40B2DF1F9ED8AEAB7AEF1A7 /* ZGPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B21F70AEFC6C0C0DF0EE355E7DFE9587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				B1CB541A94D70A8015A805BA4050B269 /* Pods-ZGPageControl_Example */,
+				57887CC82648DD0584AEA497EE4F959D /* Pods-ZGPageControl_Tests */,
+				EA3E66FA786269B85BA049C1BE6A6A7F /* ZGPageControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B220DFB7CAC146D2F333B3C1F865AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E27A455B5302656292DF6FF983B9FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA8A0E40186DC2921F3CA0B437A6A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
+				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
+				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
+				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
+				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
+				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
+				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
+				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
+				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
+				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16864B039E3F20DF666728E62D0E0E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C693C4CDA437BA5ED473471BF5A8E47 /* Pods-ZGPageControl_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D2DE329BF211319149398BE58D38BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3848F54B9C5A5E197F94A38E2EBE202 /* Pods-ZGPageControl_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1B005B451737AF3AE58BB02CE51981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE2C517A6C08E5543A7167196FA6BC /* ZGPageControl-dummy.m in Sources */,
+				5E78A5624C48F34BCE37B656FD3D05F9 /* ZGPageControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CF7344EF4C858D67A30C422A7DFC9B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZGPageControl_Example";
+			target = B1CB541A94D70A8015A805BA4050B269 /* Pods-ZGPageControl_Example */;
+			targetProxy = 159C2D93AE9E57E10B88F9908E85AC8D /* PBXContainerItemProxy */;
+		};
+		752403B778F2D1E952143A8A113A3EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 0D44403F4F7F52464E0A6634DC62F4C5 /* PBXContainerItemProxy */;
+		};
+		DA04266706287723E5AF4312D3C35AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZGPageControl;
+			target = EA3E66FA786269B85BA049C1BE6A6A7F /* ZGPageControl */;
+			targetProxy = 13D1AFD67706D532CD0CBAAC89ECA18A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41ED87BBA6CC9B366ABC408DAE827AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA076B81BE613290AAC40C75E1947AF /* Pods-ZGPageControl_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZGPageControl_Example/Pods-ZGPageControl_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZGPageControl_Example/Pods-ZGPageControl_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4E93284E809E114B865A6B92752F7FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3702537037A8B779FA18DBDF05B5A3F1 /* Pods-ZGPageControl_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZGPageControl_Tests/Pods-ZGPageControl_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZGPageControl_Tests/Pods-ZGPageControl_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		527D6664223B803E9C7307F58E3CA12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7EFB9E9A28C84DC6D0D0D9B5FD6A6975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21BAB465EFD3AA8DF698C1FFE995B01 /* Pods-ZGPageControl_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZGPageControl_Tests/Pods-ZGPageControl_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZGPageControl_Tests/Pods-ZGPageControl_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8321F837B3D69A3CAA603DDEA8ADAC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999FFE7C0BF13EF03135E5415001991F /* ZGPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZGPageControl/ZGPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZGPageControl/ZGPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZGPageControl/ZGPageControl.modulemap";
+				PRODUCT_MODULE_NAME = ZGPageControl;
+				PRODUCT_NAME = ZGPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C65F7CC9708EE0690525E4800598E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE79A4BA3F9565F4A93E3713D0EE0295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999FFE7C0BF13EF03135E5415001991F /* ZGPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZGPageControl/ZGPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZGPageControl/ZGPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZGPageControl/ZGPageControl.modulemap";
+				PRODUCT_MODULE_NAME = ZGPageControl;
+				PRODUCT_NAME = ZGPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB6541D6589ABF6D56DF9DC630D1C416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C05C8B350C6E7D4C6E1AA8094DA4731F /* Pods-ZGPageControl_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZGPageControl_Example/Pods-ZGPageControl_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZGPageControl_Example/Pods-ZGPageControl_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16D98385EA7917BF6DDBE9AE61472987 /* Build configuration list for PBXNativeTarget "Pods-ZGPageControl_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6541D6589ABF6D56DF9DC630D1C416 /* Debug */,
+				41ED87BBA6CC9B366ABC408DAE827AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41DF706E416CDED5D02010063DE11B07 /* Build configuration list for PBXNativeTarget "Pods-ZGPageControl_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E93284E809E114B865A6B92752F7FD7 /* Debug */,
+				7EFB9E9A28C84DC6D0D0D9B5FD6A6975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C65F7CC9708EE0690525E4800598E8E /* Debug */,
+				527D6664223B803E9C7307F58E3CA12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EA92C26F263A71D11EFE367F13645F /* Build configuration list for PBXNativeTarget "ZGPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8321F837B3D69A3CAA603DDEA8ADAC3F /* Debug */,
+				AE79A4BA3F9565F4A93E3713D0EE0295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ZGPageControl",
+  "version": "0.1.0",
+  "summary": "A short description of ZGPageControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Keventsang/曾克兵/ZGPageControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Keventsang/曾克兵": "kuangtushusheng@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Keventsang/曾克兵/ZGPageControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZGPageControl/Classes/**/*"
+}
